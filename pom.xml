@@ -18,7 +18,8 @@
     </properties>
 
     <modules>
-        <module>service</module>
+        <module>docker-example-1</module>
+        <module>docker-example-2</module>
     </modules>
 
 </project>
