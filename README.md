@@ -9,6 +9,7 @@ docker build -t marekhudyma/docker-java-fat-jar-sources:latest -f Dockerfile .  
 docker build -t marekhudyma/docker-java-fat-jar-tests:latest -f Dockerfile .  --platform="linux/amd64"
 docker build -t marekhudyma/docker-python:latest -f Dockerfile .  --platform="linux/amd64"
 
+
 mvn jib:dockerBuild
 
 docker images
