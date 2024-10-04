@@ -4,7 +4,7 @@ http://localhost:8080/actuator/health
 
 docker build -t marekhudyma/docker-example-1:latest -f Dockerfile .
 
-docker build -t marekhudyma/docker-java-far-jar-resources:latest -f Dockerfile .  --platform="linux/amd64"
+docker build -t marekhudyma/docker-java-fat-jar-resources:latest -f Dockerfile .  --platform="linux/amd64"
 docker build -t marekhudyma/docker-java-fat-jar-sources:latest -f Dockerfile .  --platform="linux/amd64"
 docker build -t marekhudyma/docker-java-fat-jar-tests:latest -f Dockerfile .  --platform="linux/amd64"
 docker build -t marekhudyma/docker-python:latest -f Dockerfile .  --platform="linux/amd64"
