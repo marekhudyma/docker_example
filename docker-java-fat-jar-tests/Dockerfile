@@ -1,6 +1,6 @@
 FROM openjdk:17-alpine
 
-COPY docker-example-1/target/service-1.0.0-SNAPSHOT.jar service.jar
+COPY target/docker-java-fat-jar-tests-1.0.0-SNAPSHOT.jar service.jar
 
 EXPOSE 8080
 

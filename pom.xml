@@ -18,8 +18,9 @@
     </properties>
 
     <modules>
-        <module>docker-example-1</module>
-        <module>docker-example-2</module>
+        <module>docker-java-fat-jar-resources</module>
+        <module>docker-java-fat-jar-sources</module>
+        <module>docker-java-fat-jar-tests</module>
     </modules>
 
 </project>

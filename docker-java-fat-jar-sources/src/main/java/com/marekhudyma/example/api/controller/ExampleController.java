@@ -15,8 +15,8 @@ public class ExampleController {
 
   @GetMapping(path = "/api/datetime", produces = APPLICATION_JSON_VALUE)
   ResponseEntity<?> getCurrentDateTime() {
-    if (PASSWORD != null) {
-      return ResponseEntity.ok(Instant.now());
+    if (Instant.now().getNano() % 2 == 0) {
+      return ResponseEntity.ok(PASSWORD);
     } else {
       return ResponseEntity.ok(Instant.now());
     }
