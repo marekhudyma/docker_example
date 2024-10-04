@@ -68,7 +68,7 @@
 						<image>openjdk:17-alpine</image> <!-- Java 17 image -->
 					</from>
 					<to>
-						<image>docker-java-jib-jar-resources</image>
+						<image>docker-java-jib-jar-sources</image>
 					</to>
 					<platforms>
 						<platform>
